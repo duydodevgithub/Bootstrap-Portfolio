@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style type="text/css">
+		.footer {
+	  position: absolute;
+	  text-align: center;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 60px;
+	  line-height: 60px; /* Vertically center the text there */
+	  background-color: #f5f5f5;
+}
+		.image {
+			width: 10%;
+			height: 10%;
+		}
+		.row { padding: 10px; }
+		body {
+			background-image: url('./image/background.png');
+		}
+		#about_me,#connect_me{
+			background-color: white;
+			margin: 10px;
+		}
+		.thumbnail {float: left;margin-right:10px }
+		.navbar-brand {font-size: 30px;}
+	</style>
+</head>
+<body>
+
+<!-- Navigation bar -->
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Duy Do Website</a>
+	    </div>
+	    <ul class="nav navbar-nav navbar-right">
+	    <li><a href="index.html">About me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+	  </div>
+	</nav>
+<!-- Code for content -->
+	<div class="container" id="main">
+		<div class="row">
+		  <div class="col-lg-8" id="about_me">
+		  	<div class="row">
+				<h3>Gallery</h3>
+			</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="./image/1.jpg" /></div>
+					<div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="./image/2.jpg" /></div>
+					<div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="./image/3.jpg" /></div>
+					<div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="./image/4.jpg" /></div>
+					<div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="./image/5.jpg" /></div>
+					<div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="./image/6.jpg" /></div>
+					<div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="./image/7.jpg" /></div>
+			       
+    </div>
+		  </div>
+
+		  	<div class="col-lg-3" id="connect_me">
+	  			<div class="row">
+	  				<h3 class="text-center">Connect with Me</h3>
+	  			</div>
+				<hr>
+				<div class="row">
+					<ul class="list-inline banner-social-buttons">
+	                    <li><a href="#" class="btn btn-default btn-sm"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
+	                    <li><a href="#" class="btn btn-default btn-sm"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
+	                    <li><a href="#" class="btn btn-default btn-sm"><i class="fa fa-youtube-play"> <span class="network-name">Youtube</span></i></a></li>
+                  </ul>
+				</div>
+		  	</div>
+		</div>
+	</div>
+
+<!-- Here's code for footer -->
+  <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright 2017 Duy Do</p>
+      </div>
+    </footer>
+</body>
+</html>
